@@ -104,6 +104,8 @@ RUN dpkgArch="$(dpkg --print-architecture)" \
     libclang-dev \
     man-db \
     nano \
+    nodejs \
+    npm \
     procps \
     psmisc \
     screen \
@@ -228,6 +230,7 @@ RUN pip install \
     jupyterlab==${JUPYTERLAB_VERSION} \
     jupyterlab-git \
     jupyterlab-lsp \
+    jupyter_scheduler \
     notebook \
     nbconvert \
     python-lsp-server[all] \
